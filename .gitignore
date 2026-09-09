@@ -1,0 +1,11 @@
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/
+
+# Local continuity and generated working files are kept on the authoring machine.
+/.project-memory/
+/.DS_Store
+**/.DS_Store
+*.log
+*.blend1
+/assets/muay-thai-fighter/motion-prototype/frames/
+/assets/muay-thai-fighter/wan-generation/

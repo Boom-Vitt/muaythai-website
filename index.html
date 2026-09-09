@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141615">
+  <meta name="description" content="RINGSIDE — สัมผัสศิลปะมวยไทยผ่านภาพเคลื่อนไหว และพบกับอัคนี นักสู้ประจำ RINGSIDE ในทุกองศา">
+  <title>RINGSIDE — ทุกจังหวะ คือมวยไทย</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23141615'/%3E%3Cpath d='M16 16h25v12H28v8h15v12H16z' fill='%23ee683d'/%3E%3C/svg%3E">
+  <link rel="preload" href="web-assets/vendor/anuphan-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <style>
+    @font-face{font-family:Anuphan;src:url('web-assets/vendor/anuphan-variable.ttf') format('truetype');font-style:normal;font-weight:100 700;font-display:swap}
+    @font-face{font-family:Barlow;src:url('web-assets/vendor/barlow-condensed-800.ttf') format('truetype');font-style:normal;font-weight:800;font-display:swap}
+    :root{--ink:#141615;--paper:#f0ebdf;--orange:#ee683d;--gold:#ceac6b;--muted:#b8b8ac;--line:#ffffff26;--edge:clamp(24px,5vw,88px);color-scheme:dark;font-family:Anuphan,system-ui,sans-serif;font-synthesis:none}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:96px}body{margin:0;background:var(--ink);color:var(--paper)}button,a{-webkit-tap-highlight-color:transparent}button{font:inherit;color:inherit;cursor:pointer}a{color:inherit;text-decoration:none}button,video{border:0}button{background:none}button:disabled{cursor:wait;opacity:.5}button:focus-visible,a:focus-visible,video:focus-visible,model-viewer:focus-visible{outline:2px solid var(--orange);outline-offset:7px}::selection{background:var(--orange);color:var(--ink)}svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex:none}.icon-fill{fill:currentColor;stroke:none}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.skip-link{position:fixed;top:8px;left:8px;z-index:20;padding:12px 18px;background:var(--paper);color:var(--ink);transform:translateY(-160%)}.skip-link:focus{transform:none}.eyebrow{font:600 11px/1.4 Anuphan,sans-serif;letter-spacing:.18em;text-transform:uppercase}.arrow-link{display:inline-flex;align-items:center;gap:20px;font-size:13px;font-weight:500}.arrow-link svg{transition:transform .2s}.arrow-link:hover svg{transform:translate(3px,-3px)}
+    .site-header{height:90px;position:absolute;inset:0 0 auto;z-index:4;display:flex;align-items:center;justify-content:space-between;gap:28px;padding:0 var(--edge);border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:10px;font:800 30px/1 Barlow,Impact,sans-serif;letter-spacing:-.01em}.brand-mark{width:27px;height:27px;display:grid;place-items:center;border:2px solid var(--orange);transform:rotate(-12deg)}.brand-mark:after{content:'';width:13px;height:13px;border:2px solid var(--orange)}.brand small{font:500 9px/1 Anuphan,sans-serif;letter-spacing:.18em;color:var(--muted);margin:3px 0 0 7px;padding-left:16px;border-left:1px solid var(--line)}.nav{display:flex;align-items:center;gap:34px;font-size:12px}.nav a{padding:14px 0;position:relative}.nav a:after{content:'';position:absolute;left:0;right:100%;bottom:6px;height:1px;background:var(--orange);transition:right .2s}.nav a:hover:after{right:0}.header-watch{border:1px solid #ffffff4a;display:flex;align-items:center;gap:12px;padding:10px 15px;font-size:11px}.header-watch svg{width:12px;height:12px}.menu-toggle{display:none}
+    .hero{position:relative;isolation:isolate;min-height:850px;min-height:max(820px,100svh);overflow:hidden;background:#22221d}.background-video{position:absolute;inset:0;z-index:-4;width:100%;height:100%;object-fit:cover;opacity:.54;filter:saturate(.52)}.hero:before{content:'';position:absolute;inset:0;z-index:-3;background:linear-gradient(90deg,rgba(15,18,17,.95),rgba(15,18,17,.74) 35%,rgba(15,18,17,.1) 74%),linear-gradient(0deg,#141615 0%,transparent 40%,rgba(11,14,13,.3));pointer-events:none}.hero:after{content:'';position:absolute;inset:0;z-index:2;box-shadow:inset 0 0 160px #0003;pointer-events:none}.hero-grid{position:relative;display:grid;grid-template-columns:1fr 1fr;max-width:1600px;margin:auto;min-height:inherit;padding:160px var(--edge) 142px}.hero-copy{position:relative;z-index:2;align-self:center;padding-bottom:36px}.hero-kicker{display:flex;align-items:center;gap:12px;color:#dedaca;margin:0 0 26px}.hero-kicker:before{content:'';width:28px;height:2px;background:var(--orange)}h1{font-weight:600;font-size:clamp(64px,6.6vw,104px);line-height:1.14;letter-spacing:-.055em;margin:0 0 26px}h1 span{display:block;color:var(--orange)}.hero-description{max-width:340px;font-size:15px;line-height:1.9;color:#cdcbbf;margin:0 0 32px}.primary-button{display:inline-flex;align-items:center;justify-content:center;gap:30px;min-height:56px;padding:16px 24px;background:var(--orange);color:#171713;font-size:13px;font-weight:700;transition:background .2s,transform .2s}.primary-button:hover{background:#ff8658;transform:translateY(-2px)}.primary-button svg{width:14px;height:14px}.hero-actions{display:flex;align-items:center;gap:28px}.hero-actions .arrow-link{font-size:12px}.hero-side-caption{position:absolute;right:var(--edge);top:145px;color:var(--muted);text-align:right;font-size:10px;letter-spacing:.13em;line-height:1.8;z-index:1}.hero-side-caption span{display:block;color:var(--orange)}
+    .fighter-stage{position:relative;min-width:0;align-self:stretch;isolation:isolate;scroll-margin-top:120px}.fighter-outline{position:absolute;z-index:-1;width:92%;height:84%;left:7%;top:4%;border:1px solid #eac68a30;border-radius:48% 48% 0 0;transform:rotate(8deg)}.fighter-outline:after{content:'';position:absolute;inset:18px;border:1px solid #eac68a12;border-radius:inherit}.fighter-word{position:absolute;z-index:-1;left:50%;top:24%;transform:translateX(-50%);font:800 clamp(110px,15vw,250px)/1 Barlow,Impact,sans-serif;letter-spacing:-.035em;color:transparent;-webkit-text-stroke:1px #e0d5af26;white-space:nowrap;pointer-events:none}.fighter-stage model-viewer{width:calc(100% + 60px);margin-left:-30px;height:580px;min-height:100%;--poster-color:transparent;background:transparent;--progress-bar-height:2px;--progress-bar-color:var(--orange);touch-action:pan-y}.fighter-stage model-viewer::part(default-progress-bar){background:var(--orange)}.fighter-poster{width:100%;height:100%;object-fit:contain;background:transparent;pointer-events:none}.fighter-name{position:absolute;left:2%;bottom:0;display:flex;align-items:flex-end;gap:15px;pointer-events:none}.fighter-name .name-th{font-size:30px;font-weight:600;line-height:1.3}.fighter-name .name-en{font:800 52px/.88 Barlow,sans-serif;letter-spacing:.02em;color:var(--orange)}.fighter-name .name-description{font-size:10px;color:var(--muted);line-height:1.8;max-width:95px;padding:0 0 0 14px;border-left:1px solid var(--line)}.model-tools{position:absolute;right:0;bottom:0;display:flex;gap:8px}.tool-button{display:grid;place-items:center;width:36px;height:36px;border:1px solid #ffffff38;background:#171b17bd;transition:border-color .2s}.tool-button:hover,.tool-button[aria-pressed=true]{border-color:var(--orange);color:var(--orange)}.tool-button svg{width:16px;height:16px}.model-hint{position:absolute;top:50%;right:-35px;writing-mode:vertical-rl;font-size:9px;letter-spacing:.15em;color:var(--muted);pointer-events:none}.model-message{position:absolute;top:calc(100% + 14px);left:2%;font-size:11px;color:var(--muted);margin:0}.hero-floor{position:absolute;bottom:35px;left:var(--edge);right:var(--edge);display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line);padding-top:22px;z-index:3}.hero-floor .floor-line{display:flex;align-items:center;gap:12px;font-size:9px;letter-spacing:.15em;color:var(--muted)}.hero-floor .floor-line b{width:5px;height:5px;border-radius:50%;background:var(--orange)}.background-control{display:flex;align-items:center;gap:8px;font-size:10px;color:#d3d1c5;padding:4px}.background-control svg{width:12px;height:12px}.scroll-cue{display:flex;align-items:center;gap:14px;font-size:10px}.scroll-cue svg{width:13px;height:13px}
+    .discipline-strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:27px var(--edge);display:flex;justify-content:space-between;align-items:center;gap:30px;overflow:hidden}.discipline-strip p{margin:0;color:var(--muted);font-size:10px;letter-spacing:.12em}.discipline-strip .limbs{display:flex;align-items:center;gap:clamp(22px,5vw,80px);font-weight:500;font-size:21px}.limbs i{font:normal 18px/1 Anuphan,sans-serif;color:var(--orange)}.discipline-strip .stamp{font:800 18px/1 Barlow,sans-serif;color:var(--gold);white-space:nowrap}
+    .rhythm-section{background:var(--paper);color:var(--ink);padding:84px var(--edge) 92px;scroll-margin-top:0}.section-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:30px;margin-bottom:34px}.section-heading .eyebrow{color:#806948;margin:0 0 13px}.section-heading h2{font-size:clamp(30px,3.2vw,47px);font-weight:600;letter-spacing:-.04em;line-height:1.3;margin:0}.section-heading>p{max-width:280px;color:#676960;font-size:13px;line-height:1.8;margin:0 0 2px}.rhythm-layout{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(265px,1fr);gap:45px}.rhythm-screen{position:relative;align-self:start;background:#101410;aspect-ratio:16/9;overflow:hidden}.rhythm-screen video{width:100%;height:100%;object-fit:cover;display:block}.screen-tag{position:absolute;top:18px;left:20px;color:#e3decf;font:500 9px/1.2 Anuphan,sans-serif;letter-spacing:.13em;pointer-events:none}.screen-tag b{display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--orange);margin-right:8px}.rhythm-list{display:flex;flex-direction:column}.beat-button{display:grid;grid-template-columns:28px 1fr 22px;align-items:center;gap:19px;width:100%;padding:22px 10px 22px 0;text-align:left;border-top:1px solid #1517152b;color:var(--ink);transition:padding-left .2s,background .2s}.beat-button:last-of-type{border-bottom:1px solid #1517152b}.beat-button .beat-number{font:500 10px/1 Anuphan,sans-serif;color:#75776d}.beat-button .beat-title{font-size:19px;line-height:1.4;font-weight:600}.beat-button .beat-title small{display:block;font-size:11px;font-weight:400;color:#77776d;margin-top:6px}.beat-button>svg{width:18px;height:18px}.beat-button:hover,.beat-button[aria-pressed=true]{padding-left:13px;background:#ddd6c966}.beat-button[aria-pressed=true] .beat-number,.beat-button[aria-pressed=true]>svg{color:#b04a28}.beat-caption{font-size:11px;line-height:1.8;color:#74756b;margin:19px 0 0}.rhythm-quote{margin:42px 0 0;padding-top:24px;border-top:1px solid #1517152b;display:flex;justify-content:space-between;gap:20px;font-size:12px;color:#65675e}.rhythm-quote span:last-child{font:800 19px/1 Barlow,sans-serif;letter-spacing:.06em;color:#8a6536}
+    footer{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:37px var(--edge)}footer .brand{font-size:24px}footer .brand-mark{width:22px;height:22px}footer .brand-mark:after{width:10px;height:10px}footer p{font-size:10px;line-height:1.8;color:var(--muted);margin:0}footer .back-top{font-size:10px}.film-dialog{width:min(1120px,calc(100% - 36px));max-width:1120px;padding:0;border:1px solid #ffffff30;background:#141615;color:var(--paper)}.film-dialog::backdrop{background:#060a09eb;backdrop-filter:blur(8px)}.dialog-heading{display:flex;align-items:center;justify-content:space-between;padding:18px 22px;gap:20px}.dialog-heading h2{font-size:14px;font-weight:500;margin:0}.close-dialog{display:grid;place-items:center;width:36px;height:36px;border:1px solid var(--line)}.film-dialog video{display:block;width:100%;max-height:75svh;background:#080b0a}.film-error{font-size:13px;color:var(--muted);padding:0 22px}.film-error:empty{display:none}
+    @media(min-width:1600px){.hero-grid{min-height:900px}.hero{min-height:900px}}
+    @media(max-width:1100px){.brand small{display:none}.hero-grid{padding-top:154px;grid-template-columns:1fr 1fr}.hero{min-height:800px}.hero-copy{padding-bottom:28px}h1{font-size:clamp(60px,7.6vw,85px)}.fighter-stage model-viewer{height:510px}.fighter-name .name-en{font-size:42px}.model-hint{right:-20px}.hero-actions{gap:20px}.hero-actions .arrow-link{gap:10px}.rhythm-layout{gap:30px}.beat-button{padding-top:16px;padding-bottom:16px}}
+    @media(max-width:760px){:root{--edge:24px}.site-header{height:74px}.brand{font-size:27px}.brand-mark{width:24px;height:24px}.nav{display:none;position:absolute;top:74px;left:0;right:0;background:#161a17f5;backdrop-filter:blur(18px);border-bottom:1px solid var(--line);padding:15px 24px 22px;flex-direction:column;align-items:stretch;gap:3px}.nav.is-open{display:flex}.nav a{padding:14px 0}.nav a:after{display:none}.header-watch{justify-content:center;margin-top:8px;padding:13px}.menu-toggle{display:grid;place-items:center;width:40px;height:40px;border:1px solid var(--line)}.hero{min-height:0}.hero-grid{min-height:0;grid-template-columns:1fr;padding:126px var(--edge) 132px}.hero-copy{align-self:start;padding:0;max-width:520px}.hero-kicker{font-size:9px;letter-spacing:.16em;margin-bottom:20px}h1{font-size:clamp(58px,11.6vw,83px);margin-bottom:20px;line-height:1.12}.hero-description{font-size:13px;line-height:1.85;max-width:300px;margin-bottom:24px}.hero-actions{gap:24px}.primary-button{min-height:51px;gap:22px;padding:15px 21px;font-size:12px}.hero-actions .arrow-link{font-size:11px}.hero:before{background:linear-gradient(90deg,rgba(15,18,17,.84),rgba(15,18,17,.34)),linear-gradient(0deg,#141615 0%,transparent 48%,rgba(11,14,13,.55))}.background-video{opacity:.5;object-position:60% 50%}.hero-side-caption{top:98px;right:24px;font-size:8px}.fighter-stage{margin-top:26px;height:520px;max-width:540px;width:100%;justify-self:center}.fighter-stage model-viewer{height:490px;min-height:0;width:100%;margin-left:0}.fighter-outline{height:81%;width:81%;left:10%;top:1%}.fighter-word{font-size:clamp(140px,30vw,215px);top:22%}.fighter-name{left:0;bottom:0}.fighter-name .name-th{font-size:27px}.fighter-name .name-en{font-size:44px}.fighter-name .name-description{font-size:9px}.model-tools{bottom:0}.model-hint{right:0;top:34%;font-size:8px}.model-message{top:calc(100% + 12px);left:0}.hero-floor{bottom:24px;flex-wrap:wrap;row-gap:18px;padding-top:18px}.hero-floor .floor-line{font-size:8px}.scroll-cue{display:none}.background-control{font-size:9px}.discipline-strip{padding-top:22px;padding-bottom:22px;gap:16px;flex-wrap:wrap}.discipline-strip p{width:100%;font-size:8px}.discipline-strip .limbs{font-size:19px;gap:22px}.discipline-strip .stamp{font-size:14px}.rhythm-section{padding-top:52px;padding-bottom:48px}.section-heading{display:block;margin-bottom:26px}.section-heading .eyebrow{font-size:9px;margin-bottom:10px}.section-heading>p{margin-top:16px;font-size:12px;max-width:300px}.section-heading h2{font-size:32px}.rhythm-layout{grid-template-columns:1fr;gap:27px}.rhythm-screen{margin:0 calc(-1 * var(--edge));width:calc(100% + 2 * var(--edge))}.beat-button{padding-top:18px;padding-bottom:18px}.beat-button .beat-title{font-size:17px}.beat-button .beat-title small{font-size:10px}.rhythm-quote{margin-top:30px;font-size:10px;align-items:center;line-height:1.8}.rhythm-quote span:last-child{font-size:15px;white-space:nowrap}footer{padding-top:28px;padding-bottom:28px;flex-wrap:wrap;gap:24px}footer p{font-size:9px;order:3;flex-basis:100%}footer .brand{font-size:24px}footer .back-top{font-size:9px}.film-dialog{width:calc(100% - 20px)}.dialog-heading{padding:12px 14px}.dialog-heading h2{font-size:12px}}
+    @media(max-width:370px){:root{--edge:20px}.hero-actions{gap:17px}.hero-side-caption{display:none}.hero-grid{padding-top:117px}.fighter-name{gap:10px}.fighter-name .name-description{max-width:77px;padding-left:10px}.model-tools{gap:5px}.tool-button{width:31px;height:34px}.discipline-strip .limbs{gap:17px}.discipline-strip .stamp{font-size:12px}.rhythm-quote span:last-child{font-size:13px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">ข้ามไปเนื้อหา</a>
+  <svg aria-hidden="true" class="sr-only" xmlns="http://www.w3.org/2000/svg"><defs>
+    <symbol id="arrow-up-right" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></symbol>
+    <symbol id="arrow-right" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol>
+    <symbol id="play" viewBox="0 0 24 24"><path class="icon-fill" d="m7 4 14 8-14 8z"/></symbol>
+    <symbol id="pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14" stroke-width="4"/></symbol>
+    <symbol id="rotate" viewBox="0 0 24 24"><path d="M20 7v5h-5M4 17v-5h5M20 12a8 8 0 0 0-14-5M4 12a8 8 0 0 0 14 5"/></symbol>
+    <symbol id="reset" viewBox="0 0 24 24"><path d="M3 5v6h6M3 11a9 9 0 1 1 2 7"/></symbol>
+    <symbol id="close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+  </defs></svg>
+  <header class="site-header">
+    <a href="#" class="brand" aria-label="RINGSIDE หน้าหลัก"><span class="brand-mark" aria-hidden="true"></span>RINGSIDE<small>MUAY THAI CULTURE</small></a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="เปิดเมนู" aria-expanded="false" aria-controls="navigation"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg></button>
+    <nav class="nav" id="navigation" aria-label="เมนูหลัก">
+      <a href="#main">ข้างเวที</a><a href="#fighter">นักสู้ของเรา</a><a href="#rhythm">จังหวะมวยไทย</a>
+      <button class="header-watch" data-watch><svg aria-hidden="true"><use href="#play"/></svg>ชมภาพยนตร์สั้น</button>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <!-- WAN video is the intended background. The actual Blender reference is an explicit media fallback. -->
+      <video class="background-video" id="background-video" muted loop playsinline preload="metadata" poster="web-assets/wan-poster.jpg" aria-hidden="true" tabindex="-1" src="web-assets/wan-muaythai-bg.mp4"></video>
+      <div class="hero-side-caption" aria-hidden="true">THE ART OF<br><span>EIGHT LIMBS.</span></div>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="hero-kicker eyebrow">More than a fight. A way of life.</p>
+          <h1 id="hero-title">ทุกจังหวะ<span>คือมวยไทย.</span></h1>
+          <p class="hero-description">จากความนิ่งในท่าการ์ด สู่พลังของทุกหมัด<br>เข้ามาใกล้อีกนิด แล้วสัมผัสศิลปะแห่งการต่อสู้</p>
+          <div class="hero-actions">
+            <button class="primary-button" data-watch><svg aria-hidden="true"><use href="#play"/></svg>เข้าสู่ข้างเวที</button>
+            <a class="arrow-link" href="#rhythm">สำรวจทุกจังหวะ<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a>
+          </div>
+        </div>
+        <div class="fighter-stage" id="fighter" aria-label="อัคนี นักสู้ประจำ RINGSIDE">
+          <div class="fighter-outline" aria-hidden="true"></div><div class="fighter-word" aria-hidden="true">AKHANI</div>
+          <model-viewer id="fighter-model" src="web-assets/akhani.glb" alt="อัคนี นักมวยไทยชายสวมถุงมือสีส้มและกางเกงสีดำทอง ยืนท่าการ์ด หมุนดูโมเดลได้ด้วยการลากหรือปุ่มลูกศร" camera-controls disable-pan disable-zoom touch-action="pan-y" interaction-prompt="none" camera-orbit="18deg 80deg auto" field-of-view="30deg" shadow-intensity=".7" exposure="1.05" loading="eager" reveal="auto">
+            <img class="fighter-poster" slot="poster" src="web-assets/akhani-poster.png" alt="" fetchpriority="high">
+          </model-viewer>
+          <div class="fighter-name"><div><div class="name-th">อัคนี</div><div class="name-en">AKHANI</div></div><span class="name-description">นักสู้ประจำ RINGSIDE<br>พลังที่เริ่มจากหัวใจ</span></div>
+          <span class="model-hint">DRAG TO EXPLORE · 360°</span>
+          <div class="model-tools">
+            <button class="tool-button" id="rotate-model" aria-label="หมุนโมเดลอัตโนมัติ" title="หมุนโมเดลอัตโนมัติ" aria-pressed="false" disabled><svg aria-hidden="true"><use href="#rotate"/></svg></button>
+            <button class="tool-button" id="reset-model" aria-label="คืนมุมมองเริ่มต้น" title="คืนมุมมองเริ่มต้น" disabled><svg aria-hidden="true"><use href="#reset"/></svg></button>
+          </div>
+          <p class="model-message" id="model-message" role="status">กำลังเตรียมนักสู้…</p>
+        </div>
+      </div>
+      <div class="hero-floor">
+        <span class="floor-line"><b aria-hidden="true"></b> MADE OF DISCIPLINE. DRIVEN BY HEART.</span>
+        <button class="background-control" id="background-control" aria-label="เล่นภาพเคลื่อนไหว" aria-pressed="false"><svg aria-hidden="true"><use href="#play"/></svg><span>เล่นภาพเคลื่อนไหว</span></button>
+        <a class="scroll-cue" href="#rhythm">เลื่อนเพื่อสัมผัส<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m-5-5 5 5 5-5"/></svg></a>
+      </div>
+    </section>
+    <div class="discipline-strip" aria-label="มวยไทย ศิลปะแห่งอาวุธทั้งแปด"><p>THE LANGUAGE OF MUAY THAI</p><div class="limbs"><span>หมัด</span><i aria-hidden="true">+</i><span>เท้า</span><i aria-hidden="true">+</i><span>เข่า</span><i aria-hidden="true">+</i><span>ศอก</span></div><span class="stamp">8 LIMBS. ONE SPIRIT.</span></div>
+    <section class="rhythm-section" id="rhythm" aria-labelledby="rhythm-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / Inside the movement</p><h2 id="rhythm-title">จังหวะแห่งมวยไทย</h2></div><p>ทุกการเคลื่อนไหวมีความหมาย<br>เลือกจังหวะ แล้วมองให้เห็นมากกว่าความเร็ว</p></div>
+      <div class="rhythm-layout">
+        <div class="rhythm-screen">
+          <video id="rhythm-video" controls playsinline muted preload="metadata" src="web-assets/blender-reference.mp4" poster="web-assets/blender-poster.jpg" aria-label="ภาพเคลื่อนไหวมวยไทย: ตั้งการ์ด แย็บซ้าย เตะขวา และกลับสู่ท่าการ์ด"></video>
+          <span class="screen-tag"><b aria-hidden="true"></b>THE MOVEMENT STUDY</span>
+        </div>
+        <div class="rhythm-list" role="group" aria-label="เลือกจังหวะในวิดีโอ">
+          <button class="beat-button" data-time="0" aria-pressed="true"><span class="beat-number">01</span><span class="beat-title">ตั้งการ์ด<small>GUARD — นิ่ง พร้อม และมั่นคง</small></span><svg aria-hidden="true"><use href="#arrow-right"/></svg></button>
+          <button class="beat-button" data-time="1.625" aria-pressed="false"><span class="beat-number">02</span><span class="beat-title">ปล่อยหมัดแย็บ<small>JAB — เปิดระยะด้วยหมัดนำ</small></span><svg aria-hidden="true"><use href="#arrow-right"/></svg></button>
+          <button class="beat-button" data-time="3.958" aria-pressed="false"><span class="beat-number">03</span><span class="beat-title">เตะ แล้วกลับสู่การ์ด<small>KICK & RETURN — พลังที่ยังคุมจังหวะ</small></span><svg aria-hidden="true"><use href="#arrow-right"/></svg></button>
+          <p class="beat-caption" id="beat-caption" role="status">เลือกท่าเพื่อหยุดดูจังหวะนั้น หรือกดเล่นเพื่อชมต่อเนื่อง</p>
+        </div>
+      </div>
+      <div class="rhythm-quote"><span>ศิลปะไม่ได้อยู่แค่ตอนออกอาวุธ แต่อยู่ในทุกจังหวะระหว่างนั้น</span><span>RESPECT. DISCIPLINE. HEART.</span></div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#" aria-label="RINGSIDE กลับด้านบน"><span class="brand-mark" aria-hidden="true"></span>RINGSIDE</a><p>พื้นที่เล่าเรื่องมวยไทยผ่านภาพเคลื่อนไหว<br>อัคนี คือตัวละครนักสู้ที่สร้างขึ้นสำหรับ RINGSIDE</p><a class="arrow-link back-top" href="#main">กลับข้างเวที<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></footer>
+  <dialog class="film-dialog" id="film-dialog" aria-labelledby="film-title"><div class="dialog-heading"><h2 id="film-title">RINGSIDE / ทุกจังหวะ คือมวยไทย</h2><button class="close-dialog" id="close-dialog" aria-label="ปิดวิดีโอ"><svg aria-hidden="true"><use href="#close"/></svg></button></div><video id="film-video" controls playsinline preload="metadata" aria-label="ภาพยนตร์สั้นมวยไทย"></video><p class="film-error" id="film-error" role="status"></p></dialog>
+  <script type="module" src="web-assets/vendor/model-viewer-4.3.1.min.js"></script>
+  <script>
+    const background = document.querySelector('#background-video');
+    const backgroundControl = document.querySelector('#background-control');
+    const model = document.querySelector('#fighter-model');
+    const rotateButton = document.querySelector('#rotate-model');
+    const resetButton = document.querySelector('#reset-model');
+    const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const referenceSource = 'web-assets/blender-reference.mp4';
+    let backgroundSource = 'web-assets/wan-muaythai-bg.mp4';
+    let wantsBackgroundMotion = !motionPreference.matches;
+    let modelReady = false;
+
+    function updateBackgroundControl() {
+      const playing = !background.paused || (modelReady && (!model.paused || model.autoRotate));
+      backgroundControl.setAttribute('aria-pressed', String(playing));
+      backgroundControl.setAttribute('aria-label', playing ? 'หยุดภาพเคลื่อนไหว' : 'เล่นภาพเคลื่อนไหว');
+      backgroundControl.querySelector('use').setAttribute('href', playing ? '#pause' : '#play');
+      backgroundControl.querySelector('span').textContent = playing ? 'หยุดภาพเคลื่อนไหว' : 'เล่นภาพเคลื่อนไหว';
+    }
+    async function playBackground() {
+      if (!wantsBackgroundMotion || document.hidden || dialog.open) return;
+      try { await background.play(); } catch { updateBackgroundControl(); }
+    }
+    function syncModelMotion() {
+      if (!modelReady) return;
+      if (wantsBackgroundMotion && !document.hidden && !dialog.open && model.availableAnimations.length) model.play();
+      else model.pause();
+      updateBackgroundControl();
+    }
+    function setModelRotation(rotating) {
+      model.autoRotate = rotating;
+      rotateButton.setAttribute('aria-pressed', String(rotating));
+      rotateButton.setAttribute('aria-label', rotating ? 'หยุดหมุนโมเดล' : 'หมุนโมเดลอัตโนมัติ');
+      updateBackgroundControl();
+    }
+    background.addEventListener('play', updateBackgroundControl);
+    background.addEventListener('pause', updateBackgroundControl);
+    background.addEventListener('loadeddata', playBackground);
+    background.addEventListener('error', () => {
+      if (backgroundSource !== referenceSource) {
+        backgroundSource = referenceSource;
+        background.src = referenceSource;
+        background.load();
+      } else {
+        backgroundControl.disabled = true;
+        backgroundControl.querySelector('span').textContent = 'ภาพเคลื่อนไหวยังไม่พร้อม';
+      }
+    });
+    backgroundControl.addEventListener('click', () => {
+      wantsBackgroundMotion = backgroundControl.getAttribute('aria-pressed') !== 'true';
+      if (wantsBackgroundMotion) playBackground(); else background.pause();
+      if (!wantsBackgroundMotion && modelReady) setModelRotation(false);
+      syncModelMotion();
+    });
+
+    const menu = document.querySelector('#navigation');
+    const menuToggle = document.querySelector('#menu-toggle');
+    function closeMenu() {
+      menu.classList.remove('is-open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      menuToggle.setAttribute('aria-label', 'เปิดเมนู');
+    }
+    menuToggle.addEventListener('click', () => {
+      const open = menu.classList.toggle('is-open');
+      menuToggle.setAttribute('aria-expanded', String(open));
+      menuToggle.setAttribute('aria-label', open ? 'ปิดเมนู' : 'เปิดเมนู');
+    });
+    menu.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && menu.classList.contains('is-open')) { closeMenu(); menuToggle.focus(); }
+    });
+
+    model.addEventListener('load', () => {
+      modelReady = true;
+      rotateButton.disabled = false;
+      resetButton.disabled = false;
+      document.querySelector('#model-message').textContent = '';
+      syncModelMotion();
+    });
+    model.addEventListener('error', () => {
+      document.querySelector('#model-message').textContent = 'แสดงภาพนักสู้แทน — ยังโหลดมุมมอง 3 มิติไม่ได้';
+    });
+    rotateButton.addEventListener('click', () => {
+      setModelRotation(!model.autoRotate);
+    });
+    resetButton.addEventListener('click', () => {
+      setModelRotation(false);
+      model.resetTurntableRotation();
+      model.cameraOrbit = '18deg 80deg auto';
+      model.cameraTarget = 'auto auto auto';
+      model.jumpCameraToGoal();
+    });
+
+    const rhythmVideo = document.querySelector('#rhythm-video');
+    const beatButtons = [...document.querySelectorAll('[data-time]')];
+    function highlightBeat(time) {
+      const active = time >= 3.958 ? 2 : time >= 1.625 ? 1 : 0;
+      beatButtons.forEach((button, index) => button.setAttribute('aria-pressed', String(index === active)));
+    }
+    beatButtons.forEach(button => button.addEventListener('click', async () => {
+      const time = Number(button.dataset.time);
+      rhythmVideo.pause();
+      if (rhythmVideo.readyState === 0) {
+        rhythmVideo.load();
+        await new Promise(resolve => rhythmVideo.addEventListener('loadedmetadata', resolve, { once: true }));
+      }
+      rhythmVideo.currentTime = Math.min(time, Math.max(0, rhythmVideo.duration - .05));
+      highlightBeat(time);
+      document.querySelector('#beat-caption').textContent = 'หยุดที่ ' + button.querySelector('.beat-title').firstChild.textContent + ' — กดเล่นบนวิดีโอเพื่อชมต่อ';
+    }));
+    rhythmVideo.addEventListener('timeupdate', () => highlightBeat(rhythmVideo.currentTime));
+    rhythmVideo.addEventListener('error', () => {
+      document.querySelector('#beat-caption').textContent = 'ยังโหลดคลิปจังหวะมวยไทยไม่ได้ กรุณาลองเปิดหน้าเว็บอีกครั้ง';
+      beatButtons.forEach(button => { button.disabled = true; });
+    });
+
+    const dialog = document.querySelector('#film-dialog');
+    const film = document.querySelector('#film-video');
+    const filmError = document.querySelector('#film-error');
+    let filmOpener = null;
+    document.querySelectorAll('[data-watch]').forEach(button => button.addEventListener('click', async () => {
+      filmOpener = button;
+      closeMenu();
+      background.pause();
+      rhythmVideo.pause();
+      if (modelReady) model.pause();
+      filmError.textContent = '';
+      film.src = backgroundSource;
+      dialog.showModal();
+      document.body.style.overflow = 'hidden';
+      try { await film.play(); } catch { filmError.textContent = 'กดเล่นบนวิดีโอเพื่อเริ่มชม'; }
+    }));
+    document.querySelector('#close-dialog').addEventListener('click', () => dialog.close());
+    dialog.addEventListener('click', event => {
+      if (event.target !== dialog) return;
+      const bounds = dialog.getBoundingClientRect();
+      if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) dialog.close();
+    });
+    dialog.addEventListener('close', () => {
+      film.pause();
+      document.body.style.overflow = '';
+      playBackground();
+      syncModelMotion();
+      (filmOpener?.getClientRects().length ? filmOpener : menuToggle).focus({ preventScroll: true });
+    });
+    film.addEventListener('error', () => { filmError.textContent = 'ยังโหลดวิดีโอไม่ได้ กรุณาปิดแล้วลองอีกครั้ง'; });
+    motionPreference.addEventListener('change', () => {
+      wantsBackgroundMotion = !motionPreference.matches;
+      if (motionPreference.matches) {
+        background.pause();
+        if (modelReady) setModelRotation(false);
+      } else {
+        playBackground();
+      }
+      syncModelMotion();
+    });
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) {
+        background.pause();
+      } else {
+        playBackground();
+      }
+      syncModelMotion();
+    });
+    if (background.readyState >= 2) playBackground();
+  </script>
+</body>
+</html>
