@@ -1,0 +1,24 @@
+subject_definitions:
+<Subject 1> is the ORIGINAL animated Thai hero in <Picture 1>. His sharp expressive face, intense eyes, layered swept-back black hair, red headband and trailing ties, mature heroic anatomy, bronze skin, orange-gold leather gloves, black embroidered satin shorts, braided arm cords and dark ankle wraps come EXCLUSIVELY from <Picture 1>.
+<Subject 2> is the Thai fantasy arena in <Picture 1>: monumental temple architecture, fire-lit gold carvings, distant spires, dark blue storm clouds, ring ropes, reflective stone and drifting mist. Its rich cinematic animated rendering and amber/blue lighting define the entire film.
+<Subject 3> is the COMBAT MOVEMENT extracted from <Video 1>: eight fast punches, a driven knee, jumping punch, airborne guard and soft landing. It represents joint motion, weight transfer and action rhythm only.
+<Video 1> is a grayscale motion-planning proxy. It is used only to understand <Subject 3>. Its model, face, body design, clothes, materials, colors, simple floor and studio appearance must not appear in the target film.
+
+summary:
+[reference generation] A 3.042-second premium 3D animated action shot starring the exact new hero and fantasy Thai arena from <Picture 1>. Use the grayscale <Video 1> only as a movement guide for his opening punches. All character appearance and rendering come from <Picture 1>.
+
+retention_analysis:
+<Subject 1> (throughout [Shot 1]): fully_preserved - exact character identity, mature proportions, detailed hair, costume and premium animated rendering from <Picture 1>.
+<Subject 2> (throughout [Shot 1]): fully_preserved - preserve the fantasy Thai arena, fire-lit architecture, reflective floor and rich amber/blue atmosphere from <Picture 1>.
+<Subject 3> (throughout [Shot 1]): attribute_transfer - transfer the proxy's movement to the new hero, with stronger anticipation, sharper strike acceleration, energetic follow-through and controlled recovery.
+<Video 1> (motion rhythm only): weak_reference - retain the recognizable order and movement vocabulary; invent fresh cinematic staging. Discard all visual design and rendering of the proxy.
+
+detailed_description:
+A premium stylized 3D animated action film, preserving the sophisticated cinematic rendering of <Picture 1>: expressive sharply sculpted face, layered black hair and red headband, mature powerful anatomy, bronze skin, tactile orange-gold gloves, embroidered black satin shorts. The temple arena, firelight, cool blue rim and reflective stone all come from <Picture 1>.
+[Shot 1] <Subject 1> stands in <Subject 2>, coiled in a low compact guard, fierce eyes focused forward. Begin with a wider view than the still so his full body has comfortable headroom. From 00:00.000 to 00:00.550, subtly compress his weight and turn the leading shoulder. From 00:00.550 to 00:02.400, transfer only the rapid joint movement and rhythm of <Subject 3> onto this newly designed hero: snappy left jab, powerful right straight, jab and another straight. Twist hips and shoulders, keep the non-striking glove at the cheek, and let his hair and headband ties trail each sharp movement. Strong anticipation, crisp extension, brief impact accent and quick recovery. Thin orange-gold motion streaks follow the gloves for an instant. The camera makes a small smooth arc around his front; firelit temple carvings remain visible behind him, with sparse embers and low floor mist. From 00:02.400 to 00:03.042, drive a compact hook and recoil to guard, maintaining the same high-quality animated face, anatomy and material detail. The gray proxy is never a visible subject or visual style. One hero only, no text or HUD, no live-action photography.
+
+overall_soundscape:
+Controlled breathing, glove swishes and distant fire crackle. No speech.
+
+non_diegetic_music:
+None.

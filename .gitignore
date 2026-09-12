@@ -8,4 +8,11 @@
 *.log
 *.blend1
 /assets/muay-thai-fighter/motion-prototype/frames/
+/assets/muay-thai-fighter/combat-v2/frames/
 /assets/muay-thai-fighter/wan-generation/
+
+# Local generation invocation contains machine-specific paths.
+/assets/muay-thai-fighter/h3-combat/run-local.json
+
+/assets/muay-thai-fighter/h3-cinematic/run-preview.json
+/assets/muay-thai-fighter/h3-cinematic/run-local.json

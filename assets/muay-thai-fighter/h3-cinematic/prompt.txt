@@ -1,0 +1,26 @@
+subject_definitions:
+<Subject 1> is the ORIGINAL animated Thai hero in <Picture 1>. His sharp expressive face, intense eyes, layered swept-back black hair, red headband and trailing ties, mature heroic anatomy, bronze skin, orange-gold leather gloves, black embroidered satin shorts, braided arm cords and dark ankle wraps come EXCLUSIVELY from <Picture 1>.
+<Subject 2> is the Thai fantasy arena in <Picture 1>: monumental temple architecture, fire-lit gold carvings, distant spires, dark blue storm clouds, ring ropes, reflective stone and drifting mist. Its rich cinematic animated rendering and amber/blue lighting define the entire film.
+<Subject 3> is the COMBAT MOVEMENT extracted from <Video 1>: eight fast punches, a driven knee, jumping punch, airborne guard and soft landing. It represents joint motion, weight transfer and action rhythm only.
+<Video 1> is a grayscale motion-planning proxy. It is used only to understand <Subject 3>. Its model, face, body design, clothes, materials, colors, simple floor and studio appearance must not appear in the target film.
+
+summary:
+[reference generation] Create a new premium 3D animated Muay Thai action cinematic starring <Subject 1> in <Subject 2>, using <Subject 3> only as a movement guide. This is a new animated performance with the character design and full art direction of <Picture 1>. Ten seconds of choreography plus a final 0.125-second guard hold. Powerful acting, explosive accents and expressive body mechanics make it feel like an original fighting-game hero cinematic.
+
+retention_analysis:
+<Subject 1> (throughout [Shot 1]): fully_preserved - exact character identity, mature proportions, detailed hair, costume and premium animated rendering from <Picture 1>.
+<Subject 2> (throughout [Shot 1]): fully_preserved - preserve the fantasy Thai arena, fire-lit architecture, reflective floor and rich amber/blue atmosphere from <Picture 1>.
+<Subject 3> (throughout [Shot 1]): attribute_transfer - transfer the proxy's movement to the new hero, with stronger anticipation, sharper strike acceleration, energetic follow-through and controlled recovery.
+<Video 1> (motion rhythm only): weak_reference - retain the recognizable order and movement vocabulary; invent fresh cinematic staging. Discard all visual design and rendering of the proxy.
+
+detailed_description:
+Premium stylized 3D animated action film, with the sophisticated visual finish of <Picture 1>. Sculpted expressive facial planes, dynamic swept hair, tactile embroidered fabric, detailed gloves and dramatic cel-like shadow shapes. Full heroic adult proportions, consistent anatomy and a fierce focused personality throughout.
+[Shot 1] Begin with <Subject 1> coiled in a low Muay Thai guard in <Subject 2>, just as the newly designed hero appears in <Picture 1>. He fills most of the frame, with a clearly visible face and full-body silhouette. The camera immediately eases back enough to leave room above his head and beneath his feet. Firelight rakes across his bronze shoulders; cool blue outlines his hair and arms. Gold temple pillars and distant spires remain richly designed but softly separated behind him. Small embers drift across the reflective stone. This is the new animated hero's performance; there is no toy, mannequin or simple Blender character in the scene.
+From 00:00.000 to 00:00.550, his chest expands with a controlled breath, his gaze locks forward, his heels settle and his weight compresses into the stance. His headband ties and hair tips react to this preparation. From 00:00.550 to 00:04.650, follow the rapid movement vocabulary of <Subject 3>: jab, straight, jab, straight, hook, rising uppercut, hook and finishing straight. The leading glove snaps forward, the hips drive each strike, and the opposite glove returns to protect his face. Show decisively different shoulder angles and glove paths, with brief accented hit stops and fast retraction. The camera makes a restrained fifteen-degree arc around his front while staying on the same side of the action. Tight orange-gold motion streaks briefly follow the fastest gloves, dissipating immediately. His face remains crisp and determined, with no speech.
+From 00:04.650 to 00:06.150, he loads onto one leg and drives a strong high knee, lifting the thigh decisively as his torso counterbalances. The gold-embroidered shorts fold naturally and the arm cords swing. He plants and compresses again, visibly gathering power. From 00:06.150 to 00:08.450, he explodes upward into the jumping punch, opposite glove shielding his cheek and both feet clearly airborne. Widen smoothly so the entire leap stays in frame. A short, dramatic suspended beat emphasizes the extended fist; he gathers into an airborne guard before descending. Hair and cloth follow through with believable delay. Around 00:08.800 he lands in a deep cushioned stance, sending a small circular puff of mist and sparks outward over the floor. From 00:09.000 to 00:10.125, recover into a strong compact guard as the camera settles toward the opening angle. Finish with a controlled, breathing hero and fading embers, ready to repeat.
+
+overall_soundscape:
+Fire crackle, restrained indoor air, sharp glove swishes, controlled breathing and one weighty landing. No dialogue, voices or commentary.
+
+non_diegetic_music:
+None.

@@ -1,0 +1,80 @@
+{
+  "date": "2026-09-12",
+  "generation": {
+    "runtime": "antirez/h3.c 8974cc0",
+    "model": "MiniMax-H3 Ref2VA",
+    "exit_code": 0,
+    "steps": 20,
+    "layers": 50,
+    "seed": 38471,
+    "appearance_reference": "akhani-keyframe.png",
+    "motion_reference": "motion-only-reference.mp4",
+    "motion_only": true
+  },
+  "native": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1024,
+        "height": 576,
+        "avg_frame_rate": "24/1",
+        "duration": "10.125000",
+        "nb_frames": "243"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "avg_frame_rate": "0/0",
+        "duration": "10.125000",
+        "nb_frames": "318"
+      }
+    ],
+    "format": {
+      "duration": "10.125000",
+      "size": "4493991"
+    }
+  },
+  "website": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1024,
+        "height": 576,
+        "avg_frame_rate": "24/1",
+        "duration": "10.000000",
+        "nb_frames": "240"
+      }
+    ],
+    "format": {
+      "duration": "10.000000",
+      "size": "3360307"
+    }
+  },
+  "website_sha256": "27cced696ae58fea53dc2b585d7f008531849217e696565372749a32c57c22ff",
+  "checks": {
+    "native_full_decode": "passed",
+    "website_full_decode": "passed",
+    "website_node_check": "passed",
+    "visual_review": "30 samples across full film and 24 samples across jump: new hero identity and temple maintained; punches, leg raise/kick variant, airborne guard and landing visible.",
+    "limitations": "Generative interpretation; individual strike count, authored knee/punch paths and timing are not exact. Last wide guard differs from opening close-up; no mathematically seamless video loop claimed. Blender/GLB retain exact authored sequence.",
+    "browser": {
+      "date": "2026-09-12",
+      "viewports": [
+        "1440x900",
+        "390x844"
+      ],
+      "actual_cinematic_playback": "passed",
+      "dialog_background_pause_resume": "passed",
+      "six_model_blender_pose_seeks": "passed (maximum observed clock difference below 1 microsecond)",
+      "mobile_menu": "passed",
+      "horizontal_overflow": false,
+      "console_warnings_errors": 0
+    }
+  }
+}
