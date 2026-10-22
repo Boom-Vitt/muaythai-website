@@ -1,3 +1,15 @@
+<!-- BBN:HEADER:START -->
+<div align="center">
+
+<img src=".github/brand/banner.svg" width="100%" alt="Ringside — Muay Thai — Thai Muay Thai site with a cinematic film and a 3D fight lab" />
+
+<a href="https://github.com/Boom-Vitt/muaythai-website/stargazers"><img src="https://img.shields.io/github/stars/Boom-Vitt/muaythai-website?style=flat-square&color=14b8a6&labelColor=0b1220" alt="stars" /></a>
+<a href="https://github.com/Boom-Vitt/muaythai-website/commits/main"><img src="https://img.shields.io/github/last-commit/Boom-Vitt/muaythai-website?style=flat-square&color=14b8a6&labelColor=0b1220" alt="last commit" /></a>
+<a href="https://github.com/Boom-Vitt"><img src="https://img.shields.io/badge/by-BoomBigNose-14b8a6?style=flat-square&labelColor=0b1220" alt="by BoomBigNose" /></a>
+
+</div>
+<!-- BBN:HEADER:END -->
+
 # RINGSIDE — AKHANI / THE FLAME WITHIN
 
 เว็บไซต์มวยไทยภาษาไทยใน `index.html` ใช้ภาพและภาพยนตร์ของ “อัคนี” พระเอกแอนิเมชันในสนามมวยไทยแฟนตาซีเป็นภาพหลัก พร้อมไฟต์แล็บ 3D ด้านล่างสำหรับหมุนดู เล่นซ้ำ และหยุดดูท่าต่อสู้ รองรับมือถือและคอมพิวเตอร์
@@ -62,3 +74,15 @@ node scripts/check_website.cjs # ต้องมี ffprobe; ตรวจ Blende
 ```
 
 ใช้ `<video>` และ `<dialog>` ของเบราว์เซอร์ และ model-viewer 4.3.1 ที่เก็บไว้ในโปรเจกต์ ฟอนต์ Anuphan และ Barlow Condensed อยู่ใน `web-assets/vendor/` พร้อมใบอนุญาต OFL; model-viewer มีใบอนุญาต Apache 2.0 ในโฟลเดอร์เดียวกัน ไม่มี CDN หรือ API ของระบบสร้างวิดีโอที่ผู้ชมต้องเรียกใช้
+
+<!-- BBN:FOOTER:START -->
+---
+
+<div align="center">
+
+**สร้างโดย [BoomBigNose](https://github.com/Boom-Vitt)** · [Kruoop.com](https://kruoop.com) แหล่งเรียน AI + คอมมูนิตี้ · [Seeneo.ai](https://seeneo.ai) · [YouTube 220K](https://www.youtube.com/@BoomBigNose)
+
+<sub>ถ้าโปรเจกต์นี้มีประโยชน์ กด ⭐ ให้กำลังใจกันได้เลย</sub>
+
+</div>
+<!-- BBN:FOOTER:END -->
